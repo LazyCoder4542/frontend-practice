@@ -1,0 +1,39 @@
+* {
+  font-family: Inter, -apple-system, BlinkMacSystemFont;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+header#site-header {
+  padding: 0.45rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+header#site-header .nav {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+header#site-header .nav > div > div:nth-child(1) span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+header#site-header .nav > div > div:nth-child(1) span::after {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url(../assets/icons/tri-light.svg);
+  background-size: contain;
+  background-position: center;
+}
+header#site-header .nav > div .drop {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
